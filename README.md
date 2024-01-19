@@ -1,6 +1,6 @@
 # Flutter svg bug
 
-Project to simulate svg bug with the new version of flutter (3.16.7) and impeller iOS.
+Project to simulate svg bug with the new version of flutter (3.16.8) and impeller iOS.
 
 Result when running with impeller:
 
