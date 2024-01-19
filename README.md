@@ -1,16 +1,11 @@
-# test_svg
+# Flutter svg bug
 
-A new Flutter project.
+Project to simulate svg bug with the new version of flutter (3.16.7) and impeller iOS.
 
-## Getting Started
+Result when running with impeller:
 
-This project is a starting point for a Flutter application.
+<img src="https://github.com/IsabelaPSouza/flutter_svg_bug/assets/90933885/da735c55-f0f7-4ac9-bb7c-57549857f2d7)https://github.com/IsabelaPSouza/flutter_svg_bug/assets/90933885/da735c55-f0f7-4ac9-bb7c-57549857f2d7g" width="250" height="500">
 
-A few resources to get you started if this is your first Flutter project:
+Result when running without impeller ( --no-enable-impeller):
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/IsabelaPSouza/flutter_svg_bug/assets/90933885/6f612be2-c077-4a64-9ed5-93748cef072a" width="250" height="500">
